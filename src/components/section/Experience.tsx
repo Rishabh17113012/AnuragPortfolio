@@ -76,8 +76,11 @@ const Experience: React.FC = () => {
           variants={itemVariants}
           transition={{ duration: 0.5, delay: 0.3 }}
         >
-          <b>Blotic | Web Dev Intern (Dec '23 – Mar '24):</b> Worked with a team of 5+ developers through the project&apos;s full lifecycle
-, from planning to deployment, ahead of schedule. Developed a community platform, used productivity tools like Notion for project management, and improved team efficiency by 20%.
+          <b>Blotic | Web Dev Intern (Dec '23 – Mar '24):</b> Worked with a team
+          of 5+ developers through the project&apos;s full lifecycle , from
+          planning to deployment, ahead of schedule. Developed a community
+          platform, used productivity tools like Notion for project management,
+          and improved team efficiency by 20%.
         </motion.p>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           <motion.div
