@@ -94,9 +94,10 @@ const Contact: React.FC = () => {
             04.
           </span>
           <span className="ml-4">Get in Touch</span>
-          <span className="flex-1 h-px bg-gray-300 dark:bg-gray-700 ml-4 max-w-xs"></span>
+          <span className="flex-1 h-px bg-gray-300 dark:bg-gray-700 ml-4 max-w-xs" />
         </motion.h2>
-        /* prettier-ignore */
+
+        {/* prettier-ignore */}
         <motion.p
           className="text-gray-700 text-base font-sans dark:text-gray-300 mb-8 leading-relaxed"
           initial="hidden"
@@ -118,6 +119,7 @@ const Contact: React.FC = () => {
           </a>
           !
         </motion.p>
+
         <div className="flex flex-col md:flex-row md:gap-12">
           <motion.div
             className="md:flex-1"
@@ -160,6 +162,7 @@ const Contact: React.FC = () => {
                   <span className="text-red-500 text-sm">{errors.email}</span>
                 )}
               </div>
+
               <div className="flex flex-col">
                 <label
                   htmlFor="message"
@@ -181,17 +184,19 @@ const Contact: React.FC = () => {
                   value={formState.message}
                   onChange={handleChange}
                   required
-                ></textarea>
+                />
                 {errors.message && (
                   <span className="text-red-500 text-sm">{errors.message}</span>
                 )}
               </div>
+
               <button
                 type="submit"
                 className="p-3 bg-transparent border-2 border-bluebell text-bluebell font-serif rounded transition-transform transform hover:bg-bluebell hover:bg-opacity-10 hover:shadow-lg"
               >
                 {loading ? 'Sending...' : 'Send Message'}
               </button>
+
               {submitted && (
                 <p className="text-green-500 text-sm mt-4">
                   Message sent successfully!
