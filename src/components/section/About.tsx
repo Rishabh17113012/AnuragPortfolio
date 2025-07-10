@@ -49,11 +49,11 @@ const About: React.FC = () => {
             custom={1}
           >
             {[
-              "I’m a passionate Software Developer and Data Enthusiast currently pursuing a B.Tech in Computer Science & Engineering from Bharati Vidyapeeth College of Engineering, Pune. With a strong foundation in MERN Stack, Cloud Platforms (GCP & AWS), and Data Engineering, I thrive on building scalable, real-time web applications and intelligent data-driven solutions.",
-              "Education:",
-              "B.Tech in Computer Science & Engineering (2021–2025), Bharati Vidyapeeth College Of Engineering, Pune.",
-              "ISC (Class XII), St. Aloysius High School (2019–2020).",
-              "Interests: Frontend, Backend, Data engineering, AI/ML, Cloud."
+              'I’m a passionate Software Developer and Data Enthusiast currently pursuing a B.Tech in Computer Science & Engineering from Bharati Vidyapeeth College of Engineering, Pune. With a strong foundation in MERN Stack, Cloud Platforms (GCP & AWS), and Data Engineering, I thrive on building scalable, real-time web applications and intelligent data-driven solutions.',
+              'Education:',
+              'B.Tech in Computer Science & Engineering (2021–2025), Bharati Vidyapeeth College Of Engineering, Pune.',
+              'ISC (Class XII), St. Aloysius High School (2019–2020).',
+              'Interests: Frontend, Backend, Data engineering, AI/ML, Cloud.',
             ].map((text, index) => (
               <motion.p
                 key={index}

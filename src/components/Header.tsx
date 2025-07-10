@@ -35,7 +35,9 @@ const Header: React.FC = () => {
             transition={{ duration: 0.5 }}
           >
             <span className="sr-only">Anurag</span>
-            <span className="text-xl font-bold font-serif text-bluebell select-none">Anurag</span>
+            <span className="text-xl font-bold font-serif text-bluebell select-none">
+              Anurag
+            </span>
           </motion.a>
         </div>
         <div className="flex lg:hidden">
@@ -90,7 +92,9 @@ const Header: React.FC = () => {
           <div className="flex items-center justify-between">
             <a href="/" className="-m-1.5 p-1.5">
               <span className="sr-only">Anurag</span>
-              <span className="text-xl font-bold font-serif text-bluebell select-none">Anurag</span>
+              <span className="text-xl font-bold font-serif text-bluebell select-none">
+                Anurag
+              </span>
             </a>
             <button
               type="button"
