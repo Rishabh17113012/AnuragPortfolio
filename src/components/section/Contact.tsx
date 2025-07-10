@@ -96,6 +96,7 @@ const Contact: React.FC = () => {
           <span className="ml-4">Get in Touch</span>
           <span className="flex-1 h-px bg-gray-300 dark:bg-gray-700 ml-4 max-w-xs"></span>
         </motion.h2>
+        /* prettier-ignore */
         <motion.p
           className="text-gray-700 text-base font-sans dark:text-gray-300 mb-8 leading-relaxed"
           initial="hidden"
@@ -103,7 +104,19 @@ const Contact: React.FC = () => {
           variants={textVariants}
           custom={1}
         >
-          I’m Anurag Singh, always open to discussing work opportunities, collaborations, or tech projects in web development, data engineering, or cloud. Feel free to email me at <b>anuragrwk03@gmail.com</b> or connect on <a href="https://github.com/Anurag03singh" className="text-bluebell underline" target="_blank" rel="noopener noreferrer">GitHub</a>!
+          I’m Anurag Singh, always open to discussing work opportunities,
+          collaborations, or tech projects in web development, data engineering,
+          or cloud. Feel free to email me at <b>anuragrwk03@gmail.com</b> or
+          connect on{' '}
+          <a
+            href="https://github.com/Anurag03singh"
+            className="text-bluebell underline"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GitHub
+          </a>
+          !
         </motion.p>
         <div className="flex flex-col md:flex-row md:gap-12">
           <motion.div
